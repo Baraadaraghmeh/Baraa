@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Bootstrap 5 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/5576d2ced3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <title>Sign in</title>
+  </head>
+  <body>
+    <!-- Start: Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">Sakan Al Mahabbah Charity</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./Aboutus.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./donations.html">Donations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Contactus.html">Contact us</a>
+              </li>
+            </ul>
+          <form class="d-flex">
+            <a href="./Signin.html" class="nav-link">Sign in</a>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- End: Navbar -->
+    <!-- Start: Sign in modal -->
+    <div class="modal modal-signin position-static d-block bg-secondary py-5" tabindex="-1" role="dialog" id="modalSignin">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content rounded-5 shadow">
+          <div class="modal-header p-5 pb-4 border-bottom-0">
+            <h2 class="fw-bold mb-0">Sign in</h2>
+          </div>
+          <div class="modal-body p-5 pt-0">
+            <form class="">
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control rounded-4" id="floatingInput" placeholder="name@example.com" />
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="password" class="form-control rounded-4" id="floatingPassword" placeholder="Password" />
+                <label for="floatingPassword">Password</label>
+              </div>
+              <button class="w-100 mb-2 btn btn-lg rounded-4 btn-primary" type="submit">Sign in</button>
+              <hr class="my-4" />
+              <h2 class="fs-5 fw-bold mb-3">Or sign up using:</h2>
+              <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-4" type="submit">
+                <i class="fab fa-facebook"> Sign up with Facebook</i>
+                
+              </button>
+              <button class="w-100 py-2 mb-2 btn btn-outline-danger rounded-4" type="submit">
+                <i class="fab fa-google"> Sign up with Google</i>
+                
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End: Sign in modal -->
+    <!-- Start: Footer -->
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About us</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Donations</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact us</a></li>
+      </ul>
+      <p class="text-center text-muted">&copy; 2021 Sakan-Al-Mahabbah-Charity</p>
+      <ul class="nav col-md-12 justify-content-center list-unstyled d-flex">
+        <li class="ms-3">
+          <a class="text-muted" href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="ms-3">
+          <a class="text-muted" href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li class="ms-3">
+          <a class="text-muted" href="#">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <!-- End: Footer -->
+  </body>
+</html>
